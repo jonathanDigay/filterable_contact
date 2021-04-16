@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+    background: none;
+}
+::-webkit-scrollbar-thumb {
+    background: purple;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-track {
+    background-color: navy;
+}
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(250deg, purple, navy);
+
+    display: grid;
+    place-items: center;
+    .contact_container {
+        width: 50%;
+        margin: 30px;
+        min-height:100px;
+    }
+    input {
+        width: 100%;
+        height: 40px;
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        border: 2px solid purple;
+        background-color: beige;
+        padding: 0 20px;
+    }
+    h1 {
+        color: rgb(212, 211, 211);
+        text-align: center;
+        margin: 10px;
+    }
+    h3 {
+        color: rgb(175, 174, 174);
+        text-decoration: underline;
+        margin-bottom: 20px;
+    }
+    .person {
+        color: rgb(172, 169, 169);
+        display: flex;
+        justify-content: space-between;
+        margin:20px;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(204, 199, 199);
+        cursor: pointer;
+
+        &:hover {
+            color: white;
+        }
+    }
+    i {
+        color: rgb(167, 167, 167);
+        cursor: pointer;
+        &:hover {
+            color: rgb(236, 75, 75);
+        }
+    }
+}

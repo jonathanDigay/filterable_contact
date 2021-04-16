@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: purple;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: navy;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(250deg, purple, navy);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.container .contact_container {
+  width: 50%;
+  margin: 30px;
+  min-height: 100px;
+}
+
+.container input {
+  width: 100%;
+  height: 40px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  border: 2px solid purple;
+  background-color: beige;
+  padding: 0 20px;
+}
+
+.container h1 {
+  color: #d4d3d3;
+  text-align: center;
+  margin: 10px;
+}
+
+.container h3 {
+  color: #afaeae;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.container .person {
+  color: #aca9a9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #ccc7c7;
+  cursor: pointer;
+}
+
+.container a:hover {
+  color: white;
+}
+
+.container i {
+  color: #a7a7a7;
+  cursor: pointer;
+}
+
+.container i:hover {
+  color: #ec4b4b;
+}
+/*# sourceMappingURL=style.css.map */
